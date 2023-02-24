@@ -1,0 +1,433 @@
+{% extends 'base/base.html' %}
+
+   {% block content %}
+      <!-- cart mini area start -->
+      <div class="cartmini__area">
+         <div class="cartmini__wrapper">
+            <div class="cartmini__title">
+               <h4>Shopping cart</h4>
+            </div>
+            <div class="cartmini__close">
+               <button type="button" class="cartmini__close-btn"><i class="fal fa-times"></i></button>
+            </div>
+            <div class="cartmini__widget">
+               <div class="cartmini__inner">
+                  <ul>
+                     <li>
+                        <div class="cartmini__thumb">
+                           <a href="/static/product-details.html">
+                           <img src="/static/assets/img/product/sm/cart-5.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="cartmini__content">
+                           <h5><a href="/static/product-details.html">Findup - Directory & Listing</a></h5>
+                           <div class="product-quantity mt-10 mb-10">
+                              <span class="cart-minus">-</span>
+                              <input class="cart-input" type="text" value="1"/>
+                              <span class="cart-plus">+</span>
+                           </div>
+                           <div class="product__sm-price-wrapper">
+                              <span>2 <i class="fal fa-times"></i></span>
+                              <span class="product__sm-price">$24.00</span>
+                           </div>
+                        </div>
+                        <a href="/static/#" class="cartmini__del"><i class="fal fa-times"></i></a>
+                     </li>
+                     <li>
+                        <div class="cartmini__thumb">
+                           <a href="/static/product-details.html">
+                           <img src="/static/assets/img/product/sm/cart-2.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="cartmini__content">
+                           <h5><a href="/static/product-details.html">TechBuzz - Businesses Agency</a></h5>
+                           <div class="product-quantity mt-10 mb-10">
+                              <span class="cart-minus">-</span>
+                              <input class="cart-input" type="text" value="1"/>
+                              <span class="cart-plus">+</span>
+                           </div>
+                           <div class="product__sm-price-wrapper">
+                              <span>1 <i class="fal fa-times"></i></span>
+                              <span class="product__sm-price">$17.00</span>
+                           </div>
+                        </div>
+                        <a href="/static/#" class="cartmini__del"><i class="fal fa-times"></i></a>
+                     </li>
+                     <li>
+                        <div class="cartmini__thumb">
+                           <a href="/static/product-details.html">
+                           <img src="/static/assets/img/product/sm/cart-3.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="cartmini__content">
+                           <h5><a href="/static/product-details.html">Zibber - Agency Template</a></h5>
+                           <div class="product-quantity mt-10 mb-10">
+                              <span class="cart-minus">-</span>
+                              <input class="cart-input" type="text" value="1"/>
+                              <span class="cart-plus">+</span>
+                           </div>
+                           <div class="product__sm-price-wrapper">
+                              <span>5 <i class="fal fa-times"></i></span>
+                              <span class="product__sm-price">$72.00</span>
+                           </div>
+                        </div>
+                        <a href="/static/#" class="cartmini__del"><i class="fal fa-times"></i></a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="cartmini__checkout">
+                  <div class="cartmini__checkout-title mb-30">
+                     <h4>Subtotal:</h4>
+                     <span>$113.00</span>
+                  </div>
+                  <div class="cartmini__checkout-btn">
+                     <a href="/static/cart.html" class="m-btn m-btn-border mb-10 w-100"> <span></span> view cart</a>
+                     <a href="/static/checkout.html" class="m-btn m-btn-3 w-100"> <span></span> checkout</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- cart mini area end -->
+
+
+      <!-- sidebar area start -->
+      <div class="sidebar__area">
+         <div class="sidebar__wrapper">
+            <div class="sidebar__close">
+               <button class="sidebar__close-btn" id="sidebar__close-btn">
+               <span><i class="fal fa-times"></i></span>
+               <span>close</span>
+               </button>
+            </div>
+            <div class="sidebar__content">
+               <div class="logo mb-40">
+                  <a href="/static/index.html">
+                  <img src="/static/assets/img/logo/logo-white.png" alt="logo">
+                  </a>
+               </div>
+               <div class="mobile-menu"></div>
+               <div class="sidebar__action mt-330">
+                  <div class="sidebar__login mt-15">
+                     <a href="/static/#"><i class="far fa-unlock"></i> Log In</a>
+                  </div>
+                  <div class="sidebar__cart mt-20">
+                     <a href="/static/javascript:void(0);" class="cart-toggle-btn">
+                        <i class="far fa-shopping-cart"></i>
+                        <span>2</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- sidebar area end -->      
+      <div class="body-overlay"></div>
+      <!-- sidebar area end -->
+
+      <main>
+
+         <!-- bg shape area start -->
+         <div class="bg-shape">
+            <img src="/static/assets/img/shape/shape-1.png" alt="">
+         </div>
+         <!-- bg shape area end -->
+
+         <!-- documentation area start -->
+         <section class="documentation__area pt-100 pb-100">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3">
+                     <div class="page__title-wrapper text-center mb-60">
+                        <h2 class="page__title-2">Search <br>Documentation</h2>
+                        <p>Lets Find what You Are Looking For!</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                     <div class="documentation__search text-center mb-90">
+                        <form action="#">
+                           <div class="documentation__search-inner d-sm-flex justify-content-center align-items-center">
+                              <div class="documentation__search-input">
+                                 <span><i class="far fa-search"></i></span>
+                                 <input type="text" placeholder="Search Documentation...">
+                              </div>
+                              <button type="submit" class="m-btn ml-20"> <span></span> search</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div class="documentation__item gradient-pink mb-30 transition-3 text-center">
+                        <div class="documentation__icon mb-30">
+                           <img src="/static/assets/img/icon/documentation/shop-bag.png" alt="">
+                        </div>
+                        <div class="documentation__content">
+                           <h3 class="documentation__title"><a href="/static/contact.html">Getting Started</a></h3>
+                           <p>Do one on your bike mate why geeza chancer.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div class="documentation__item gradient-blue mb-30 transition-3 text-center">
+                        <div class="documentation__icon mb-30">
+                           <img src="/static/assets/img/icon/documentation/shop-bag.png" alt="">
+                        </div>
+                        <div class="documentation__content">
+                           <h3 class="documentation__title"><a href="/static/about.html">Knowledge Base</a></h3>
+                           <p>Do one on your bike mate why geeza chancer.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div class="documentation__item gradient-orange mb-30 transition-3 text-center">
+                        <div class="documentation__icon mb-30">
+                           <img src="/static/assets/img/icon/documentation/shop-bag.png" alt="">
+                        </div>
+                        <div class="documentation__content">
+                           <h3 class="documentation__title"><a href="/static/product.html">Templates</a></h3>
+                           <p>Do one on your bike mate why geeza chancer.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div class="documentation__item gradient-purple mb-30 transition-3 text-center">
+                        <div class="documentation__icon mb-30">
+                           <img src="/static/assets/img/icon/documentation/shop-bag.png" alt="">
+                        </div>
+                        <div class="documentation__content">
+                           <h3 class="documentation__title"><a href="/static/blog.html">News & Updates</a></h3>
+                           <p>Do one on your bike mate why geeza chancer.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="col-xxl-12">
+                     <div class="support__thumb text-center mt-40">
+                        <a href="/static/#">
+                           <img src="/static/assets/img/support/profile/s-p-1.jpg" alt="">
+                           <img src="/static/assets/img/support/profile/s-p-2.jpg" alt="">
+                           <img src="/static/assets/img/support/profile/s-p-3.jpg" alt="">
+                           <img src="/static/assets/img/support/profile/s-p-4.jpg" alt="">
+                        </a>
+                        <p>Contact us directly at <a href="/static/mailto:support@markit.com">support@markit.com</a> </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- documentation area end -->
+
+
+         <!-- blog area start -->
+         <section class="blog__area pt-105 pb-110 grey-bg-2">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-12">
+                     <div class="section__title-wrapper mb-65">
+                        <h2 class="section__title">Latest blog</h2>
+                        <p>A load of old tosh the full monty sloshed pukka squiffy.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                     <div class="blog__wrapper white-bg mb-30 transition-3">
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">How do I purchase an item?</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">How to download your items</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Licenses overview?</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Community jobs board.</a>
+                           </h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                     <div class="blog__wrapper white-bg mb-30 transition-3">
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">How to add a feature product</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Critique my site?</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">How do I purchase an item?</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Marketing & SEO sdvice</a>
+                           </h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                     <div class="blog__wrapper white-bg mb-30 transition-3">
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/#">Does the latest Stencil</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">How do I purchase an item?</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">I've Forgotten name or password</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Removal of royal mail from</a>
+                           </h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                     <div class="blog__wrapper white-bg mb-30 transition-3">
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">BigCommerce developers</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Apps & Integrations advice</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Theme support older stores</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Knowledge Base</a>
+                           </h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                     <div class="blog__wrapper white-bg mb-30 transition-3">
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Tracking carrier option list</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">Community Jobs Board</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">How do I purchase an item?</a>
+                           </h3>
+                        </div>
+                        <div class="blog__single">
+                           <div class="blog__icon"></div>
+                           <h3 class="blog__title">
+                              <a href="/static/blog.html">What is Item Support?</a>
+                           </h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- blog area end -->
+
+         <!-- cta area start -->
+         <section class="cta__area pt-110 pb-60">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-6 offset-xxl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                     <div class="section__title-wrapper text-center mb-45 wow fadeInUp" data-wow-delay=".3s">
+                        <h2 class="section__title">Join The Community</h2>
+                        <p>Thousands of Markit Brands have made the swich.Text marketing with the customer in mind!</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xxl-6 offset-xxl-3">
+                     <div class="cta__content text-center wow fadeInUp" data-wow-delay=".5s">
+                        <a href="/static/pricing.html" class="m-btn m-btn-border-2 cta__btn active"> <span></span> Start 14 Day Free Trial</a>
+                        <a href="/static/pricing.html" class="m-btn m-btn-border-2 cta__btn"> <span></span> Claim Free Demo</a>
+                        <p>Start Sending Texts - No Credit Card Necessary</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- cta area end -->
+
+         <!-- community area start -->
+         <div class="community__area pb-140">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-10 offset-xxl-1">
+                     <div class="community__wrapper p-relative wow fadeInUp" data-wow-delay=".7s">
+                        <img class="community-map" src="/static/assets/img/shape/map.png" alt="">
+                        <div class="community__person">
+                           <img class="com-1" src="/static/assets/img/community/com-1.jpg" alt="">
+                           <img class="com-2" src="/static/assets/img/community/com-2.jpg" alt="">
+                           <img class="com-3" src="/static/assets/img/community/com-3.jpg" alt="">
+                           <img class="com-4" src="/static/assets/img/community/com-4.jpg" alt="">
+                           <img class="com-5" src="/static/assets/img/community/com-5.jpg" alt="">
+                           <img class="com-6" src="/static/assets/img/community/com-6.jpg" alt="">
+                           <img class="com-7" src="/static/assets/img/community/com-7.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- community area end -->
+      </main>
+
+{% endblock %}
